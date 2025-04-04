@@ -1,0 +1,12 @@
+services:
+  base-dotnet-devcontainer:
+    build: .
+    volumes:
+      - ../:/workspaces/BaseComponentsDotNet:cached
+    networks:
+      - base-dotnet-devcontainer
+    user: vscode
+
+networks:
+  base-dotnet-devcontainer:
+    driver: bridge
