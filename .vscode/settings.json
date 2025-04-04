@@ -1,0 +1,7 @@
+{
+  "dotnet.defaultSolution": "BaseComponentsDotNet.sln",
+  "[csharp]": {
+    "editor.tabSize": 4
+  },
+  "editor.formatOnSave": true
+}
